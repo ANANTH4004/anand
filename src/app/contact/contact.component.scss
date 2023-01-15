@@ -1,0 +1,112 @@
+.page {
+  padding-top: 10px;
+    display: flex;
+    border-radius: 40px;
+    padding-left: 8%;
+  }
+  
+  .page-image {
+    
+    flex: 0 0 auto;
+    width: 300px;
+  }
+  
+  .page-image img {
+    width: 100%;
+    border-radius: 80%;
+  }
+  
+  .page-content {
+    padding-left: 6%;
+    flex: 1 1 auto;
+   // padding: 30px;
+    line-break:normal;
+    line-height: 1cm;
+    border-radius: 40px;
+  }
+  ::ng-deep .no-background {
+    background: none;
+  }
+  .cenDiv {
+   // padding-left: 30%;
+    padding-top: 20%;
+   // display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+    justify-content: center;
+  }
+  a {
+    color:black;
+    background-color: transparent;
+    margin: 0 10px;
+  }
+  a:hover{
+    background-color: cornflowerblue;
+  }
+
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .divCen{
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .icon{
+    width: 40px;
+  }
+  .form-container {
+    padding-top: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   // padding-right: 50px;
+  }
+
+  .form-control {
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 4px;
+    padding: 12px;
+    margin: 8px 0;
+    width: 600px;
+   
+  }
+
+  .form-control:focus {
+    outline: none;
+    border-color: #555;
+  }
+  .form-group{
+    padding: 10px;
+  }
+  textarea{
+    height: 200px;
+  }
+
+  @media (max-width: 600px) {
+    .page {
+      flex-direction: column;
+      border-radius: 5vw;
+    }
+    .page-image {
+      
+      width: 100%;
+    }
+    .page-content {
+      padding: 20px;
+    }
+    .form-control {
+     // width: 80vw;
+      width: 100%;
+    }
+  }
+  @viewport {
+    width: device-width;
+    zoom: 0;
+  }
+    

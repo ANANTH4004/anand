@@ -1,0 +1,155 @@
+
+
+// mat-card-title{
+//   font-size:28px;
+//   font-family: 'Roboto', cursive;
+// }
+// mat-card {
+//     margin: 25px;
+//     width: 25%;
+//     display: inline-block;
+//     height: 280px;
+//     text-align: center;
+//     border-radius: 40px;
+//     border-color:rgb(0, 11, 11);
+//     transition: transform 0.5s ,box-shadow 0.3s;
+//     transform-style: preserve-3d;
+//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//     overflow: hidden;
+
+//     &:active{
+//       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  
+//     }
+//     &:hover {
+//       transform: scale(1.2);
+//       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      
+//     }
+//     &-header {
+     
+//       color: #070707;
+//       border-radius: 40px;
+//     }
+//   }
+
+//   .centerDiv{
+//     display: flex;
+//     justify-content: center;
+//   }
+
+//   .cardHeader{
+   
+//     display: flex;
+//     justify-content: center;
+//     padding-bottom: 20px;
+//   }
+  
+//   @media (max-width: 600px) {
+//     mat-card {
+//       width: 100%;
+//       margin: 20px 0;
+//     }
+//     mat-card-title {
+//       font-size: 22px;
+//     }
+//     mat-card-content {
+//       padding: 10px;
+//     }
+//   }
+
+
+mat-card-title{
+    font-size:28px;
+    font-weight: bold;
+    font-family: 'Lato';
+  }
+  mat-card {
+    background-color: rgb(194, 224, 224);
+      margin: 25px;
+      width: 25%;
+      display: inline-block;
+      height: 280px;
+      text-align: center;
+      border-radius: 40px;
+      border-color:rgb(0, 11, 11);
+      transition: transform 0.5s ,box-shadow 0.3s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+  
+      &:active{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
+      }
+      &:hover {
+        transform: scale(1.2);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        
+      }
+      &-header {
+       
+        color: #070707;
+        border-radius: 40px;
+      }
+    }
+  
+    .centerDiv{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .cardHeader{
+     
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+    }
+    
+    @media (max-width: 600px) {
+      mat-card {
+        width: 100%;
+        margin: 20px 0;
+      }
+      mat-card-title {
+        font-size: 22px;
+      }
+      mat-card-content {
+        padding: 10px;
+      }
+    }
+    .container {
+        // justify-content: center;
+        display: flex;
+        justify-content: center;
+       }
+       
+       @media (max-width: 600px) {
+         .container {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+         }
+       }
+       .progress-container {
+        position: relative;
+        display: inline-block;
+        background: #eee;
+        height: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .progress-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 80%;
+        background: rgb(41, 56, 151);
+      }
+       progress {
+        opacity: 0;
+      }
+      
+      
